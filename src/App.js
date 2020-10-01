@@ -29,7 +29,7 @@ return(
       <Router>
           <Route exact activeClassName path="/" component={HomePage} />
           <Route exact activeClassName  path="/homepage" component={HomePage} /> {/* shows slide show , great heading , small blurb about mahomet */}
-          <Route exact activeClassName path="/aboutus" component={AboutUs} /> {/* days since last meeting, president, vp, and other positions , memeber message(Lisa)  */}
+          <Route exact activeClassName path="/aboutus" component={AboutUs} /> {/* memeber message && brainstorm, may delete and do all on homePage    */}
           <Route exact activeClassName  path="/signup" component={Signup} /> {/* generic sign up page, including whatever info is in the controller */}
           {/* <ScrollToTop> */}
             <Switch>
@@ -38,7 +38,7 @@ return(
           {/* </ScrollToTop> */}
           <Route exact activeClassName  path="/news" component={News} />  {/* upcoming events/meetings , updates on mahomet (maybe from an API if we're feeling fancy, daily mahomet gazette)          */}
           <Route exact activeClassName  path="/guidelines" component={GuideLines} /> {/*  guidelines?         */}
-          <Route exact activeClassName  path="/contactus" component={ContactUs} />   {/*           */}    
+          <Route exact activeClassName  path="/contactus" component={ContactUs} />   {/*  basic contact form         */}    
       {/* <Footer /> */}
     </Router>
 
